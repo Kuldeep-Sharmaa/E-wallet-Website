@@ -1,0 +1,32 @@
+@media screen and (max-width: 576px) {
+  #text_area h2 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  #app-text {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  #about {
+    text-align: center;
+    margin: 4rem 0rem;
+  }
+  #work {
+    text-align: center;
+    margin: 0rem 0rem 7rem;
+  }
+  #heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  #newsletter {
+    text-align: center;
+  }
+  #contact {
+    padding: 3rem 0rem !important;
+  }
+  #footer h2 {
+    margin-left: 1.8rem;
+  }
+}

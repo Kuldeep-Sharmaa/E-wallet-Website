@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* header-start */
+nav {
+  background-color: #74cdc3;
+}
+.nav-link {
+  color: white !important; /* Text color */
+}
+#download {
+  background-color: #162535;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+/* header-end */
+
+/* main-page-start */
+#gap {
+  margin-bottom: 7rem;
+}
+#gap-2 {
+  padding-bottom: 7rem;
+}
+#text_area h2 {
+  font-size: 6rem;
+}
+#phone_img {
+  /* filter: drop-shadow(-15px 20px 0px #930202); */
+}
+#download_2 {
+  background-color: #74cdc3;
+  border-radius: 20px;
+  padding: 10px 30px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+#up_front {
+  width: 15vw;
+  background-color: #fff;
+  position: absolute;
+  left: 55%;
+  transform: translatey(100%);
+  z-index: 1;
+  border-radius: 16px;
+  padding: 15px 15px;
+  box-shadow: -5px 0px 10px rgb(0, 0, 0.5);
+}
+/* main-page-end */
+
+/* App-section-start */
+#app_section {
+  background-color: #162535;
+}
+#head {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+#app-text {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+#step {
+  font-weight: bold;
+  color: #74cdc3;
+}
+.app_text {
+  color: #fff;
+}
+/* App-section-end */
+
+/* About-section-start */
+#about {
+  margin: 7rem 0rem;
+}
+#heading {
+  font-size: 4rem;
+  font-weight: bold;
+}
+/* About-section-end */
+
+/* work-section-start */
+#work {
+  margin: 0rem 0rem 7rem;
+}
+#side {
+  width: 17vw;
+  background-color: #162535;
+  color: #a4484b;
+  position: absolute;
+  right: 50%;
+  transform: translate(30%);
+  z-index: 1;
+  border-radius: 16px;
+  padding: 15px 15px;
+  box-shadow: -5px 0px 10px rgb(0, 0, 0.5);
+}
+/* work-section-end */
+
+/* company-section-start */
+#company {
+  padding: 5rem 0rem;
+  color: white;
+  background-color: #162535;
+}
+/* company-section-end */
+
+/* blog-section-strat */
+#blog {
+  padding: 5rem 0rem;
+}
+/* blog-section-end */
+
+/* newsletter-section-start */
+#inpt {
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  background-color: #162535;
+}
+/* newsletter-section-end */
+
+/* footer-start */
+#footer {
+  background-color: #162535;
+  color: #fff;
+}
+#footer ul a {
+  color: #fff;
+  text-decoration: none;
+}
+#media ul > p,
+i {
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+.love {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-family: "Courier New";
+  align-items: center;
+  color: #ffff;
+}
+
+.art {
+  margin: 5px;
+  font-weight: 800;
+  color: rgb(199, 25, 25);
+}
+/* footer-end */
